@@ -2,7 +2,6 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-
 local opt = vim.opt -- for conciseness
 
 -- line numbers
