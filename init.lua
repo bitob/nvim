@@ -1,4 +1,4 @@
--- Bases of Typecraft's NeoVim Config Course (https://www.youtube.com/watch?v=zHTeCSVAFNY&list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)
+-- Based of Typecraft's NeoVim Config Course (https://www.youtube.com/watch?v=zHTeCSVAFNY&list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -21,6 +21,5 @@ require("lazy").setup({
     defaults = {
       lazy = false, -- plugins are not lazy loaded by default
     },
-
 })
 
