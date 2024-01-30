@@ -6,8 +6,8 @@ return {
   {
     "nvim-telescope/telescope.nvim",
     keys = { -- only load the plugin when these keys are pressed:
-        { "<C-p>", "<CMD>Telescope find_files<CR>" },
-        { "<leader>fg", "<CMD>Telescope live_grep<CR>" },
+        { "<leader>ff", "<cmd>Telescope find_files<cr>", "Find Files" },
+        { "<leader>fg", "<Ccmd>Telescope live_grep<cr>", "Grep" },
     },
 
     tag = "0.1.5",
